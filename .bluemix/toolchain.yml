@@ -13,21 +13,21 @@ catalog-api-repo:
   service_id: github
   parameters:
     repo_name: "{{name}}-catalog-api"
-    fork: skaegi/Microservices_CatalogAPI
+    fork: idsqat2/Microservices_KEEP_CatalogAPI
     has_issues: false
 
 orders-api-repo:
   service_id: github
   parameters:
     repo_name: "{{name}}-order-api"
-    fork: skaegi/Microservices_OrdersAPI
+    fork: idsqat2/Microservices_KEEP_OrdersAPI
     has_issues: false
 
 ui-repo:
   service_id: github
   parameters:
     repo_name: "{{name}}-ui"
-    fork: skaegi/Microservices_UI
+    fork: idsqat2/Microservices_KEEP_UI
     has_issues: true
 
 # Pipelines
